@@ -41,8 +41,8 @@ cost of bringing my AM4 machine up to AM5 spec. So instead:
 
 This will be my first mini PC, an experience I am looking forward to.
 
-## Homelab Experiments
+## Homelab Experiments
 
 TBC. With a 16 core/32 thread CPU and 64GB RAM at 5600MT/s and access to LXD
 containers, there should be a fair amount I can do with one machine, especially
-if you cap it out at 96GB RAM.
+if it's capped out to 96GB RAM.
