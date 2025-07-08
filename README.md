@@ -28,7 +28,7 @@ are typically used, getting anything over 100Mbps via the WiFi would be perfectl
 I'd love an AM5 desktop and a shiny new GPU, but frankly shat myself when looking at the 
 cost of bringing my AM4 machine up to AM5 spec. So instead:
 
-- [ ] Minisforum AI X1 Pro AMD Ryzen AI 9 HX 370 w/ 32GB RAM and a 1TB SSD
+- [ ] Minisforum MS-A2 Barebones w/ Ryzen 9 9955HX
 - [ ] Asus ROG Strix XG32UQ 4K monitor
 - [ ] Wooting 60HE+ keyboard
 - [x] Logitech G Superlight Pro mouse
@@ -36,13 +36,13 @@ cost of bringing my AM4 machine up to AM5 spec. So instead:
 - [x] Xbox Series X
 - [x] Xbox Elite Series 2 controller
 - [ ] Ikea Trotten desk
+- [ ] Crucial DDR5-5600 64GB Kit
 - [ ] WD Black SN850X 2TB SSD M.2 2280 NVME PCI-E Gen4 Solid State Drive
 
-The SN850X will be used to run Ubuntu Desktop which will be my development machine. No
-games, so no need for Windows. The provided NVME can go in a box.
+This will be my first mini PC, an experience I am looking forward to.
 
-## Erm, the "homelab" part?
+## Homelab Experiments
 
-This **is** a *homelab*. The X1 Pro is 100% homelab, especially when LXD containers are
-leveraged to run platforms such as MicroK8s, to experiment with databases, services such
-as Nginx and more importantly, to test applications for their resilience.
+TBC. With a 16 core/32 thread CPU and 64GB RAM at 5600MT/s and access to LXD
+containers, there should be a fair amount I can do with one machine, especially
+if you cap it out at 96GB RAM.
