@@ -14,12 +14,14 @@ my craft from the comfort of a secure(ish) home network.
 The following is a list of the kit that I want to obtain for a decent home network:
 
 - [ ] 1 x UniFi Dream Router 7
-- [ ] 1 x UniFi U7 Light
-- [ ] 1 x 3m Cat6 RJ45 network cable
-- [ ] 1 x 15m Cat6 RJ45 network cable
+- [ ] 1 x 5m Cat6 RJ45 network cable
+- [ ] 2 x 3m Cat6 RJ45 network cables
 
-An objective of this set up is to provision two VLANs, one for WFH and the other for all
-personal compute systems.
+Given the size of our flat, running a 5m Cat6 cable from the ISP router downstairs to the
+Dream Router upstairs should provide a 1Gbps connection to a router that only supports
+512Mbps to the Internet. I can run cables to my Xbox and a Minisforum mini PC, and connect
+our Macbooks to the Dream Router AP. Downstairs where the Apple TV lives and our phones
+are typically used, getting anything over 100Mbps via the WiFi would be perfectly fine.
 
 ## Desktop + Gaming
 
@@ -39,3 +41,8 @@ cost of bringing my AM4 machine up to AM5 spec. So instead:
 The SN850X will be used to run Ubuntu Desktop which will be my development machine. No
 games, so no need for Windows. The provided NVME can go in a box.
 
+## Erm, the "homelab" part?
+
+This **is** a *homelab*. The X1 Pro is 100% homelab, especially when LXD containers are
+leveraged to run platforms such as MicroK8s, to experiment with databases, services such
+as Nginx and more importantly, to test applications for their resilience.
