@@ -13,7 +13,7 @@ Achieve the following certifications.
 - [ ] CREST CRT (OSCP equivalency program)
 - [ ] Certified Kubernetes Security Specialist
 
-## Programming
+## Programming
 
 Provide meaningful contributions to open source tools using the following languagues:
 
